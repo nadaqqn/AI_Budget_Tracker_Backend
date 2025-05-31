@@ -53,7 +53,7 @@ module.exports = (sequelize, DataTypes) => {
         modelName: 'MonthlySummary',
         tableName: "monthly_summaries",
         timestamp: false,
-        underscred: true
+        underscored: true
     });
 
     MonthlySummary.associate = (models) => {
